@@ -1,0 +1,2084 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120849556-1"></script>
+
+<script>
+  if (!window.location.href.includes('http://localhost')) {
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120849556-1');
+
+    function sendClick(label, category='Social') {
+      gtag('event', 'click', {
+        transport: 'beacon',
+        event_category: category,
+        event_label: label
+      });
+    }
+  }
+</script>
+
+  <meta charset="UTF-8">
+<meta name="description" content="Programming projects and tutorials about front-end development. HTML, CSS, JavaScript, VanillaJS, jQuery, Angular, Ember. Learn how to code web elements, apps and games!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="canonical" href="https://marina-ferreira.github.io/projects/" />
+<base href="https://marina-ferreira.github.io/">
+
+  
+
+  
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/favicon-180x180.png">
+
+
+<link rel="manifest" href="img/favicon/manifest.json">
+
+
+<link rel="mask-icon" href="img/favicon/favicon.svg" color="#42ffa3">
+
+
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="shortcut icon" href="img/favicon/favicon.ico">
+
+
+  <title>Web Development Projects - HTML, CSS, JavaScript, Angular</title>
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/kimbie.dark.min.css">
+  <link rel="stylesheet" href="/styles.min.css" type="text/css">
+  <link rel="alternate" type="application/rss+xml" href="https://marina-ferreira.github.io/index.xml" title="Web Development Projects - HTML, CSS, JavaScript, VanillaJS, jQuery, Angular, Ember">
+</head>
+<body class="content list ">
+  
+
+  <div class="container">
+    
+  
+
+  <header class="header">
+  <a href="index.html" class="header-logo">WEBPILL</a>
+
+  <nav class="header-menu">
+    <ul class="header-menu-list">
+      <li class="header-menu-item">
+        <a href="index.html" class="header-menu-link">Home</a>
+      </li>
+      <li class="header-menu-item">
+        <a href="/projects" class="header-menu-link">Projects</a>
+      </li>
+      <li class="header-menu-item">
+        <a href="/tutorials" class="header-menu-link">
+          <span>Tutorials & Notes</span>
+          <span>Tutorials</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+  <aside class="sidebar">
+  <a href="index.html" class="sidebar-logo">WEBPILL</a>
+
+  <nav class="sidebar-menu">
+    <ul>
+      <li class="sidebar-menu-item">
+        <a href="index.html" class="sidebar-menu-link">Home</a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="/projects" class="sidebar-menu-link">Projects</a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="/tutorials" class="sidebar-menu-link">Tutorials & Notes</a>
+      </li>
+    </ul>
+
+    <ul class="contact-icons">
+  <li class="contact-item">
+    <a href="https://twitter.com/codesketchlab"
+       class="contact-link" target="_blank"
+       onclick="sendClick('twitter')">
+
+    <img src="img/social/twitter.png"
+         class="contact-image" alt="Code Sketch Twitter">
+    </a>
+  </li>
+  <li class="contact-item">
+    <a href="https://www.facebook.com/codesketchlab/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('facebook')">
+
+    <img src="img/social/facebook.png"
+         class="contact-image" alt="Code Sketch Facebook">
+    </a>
+  </li>
+  <li class="contact-item youtube">
+    <a href="https://www.youtube.com/channel/UCHFmShpjG-8N52O0JD2ut3A"
+       class="contact-link" target="_blank"
+       onclick="sendClick('youtube')">
+
+    <img src="img/social/youtube.png"
+         class="contact-image large" alt="Code Sketch Channel Youtube">
+    </a>
+  </li>
+  <li class="contact-item">
+    <a href="https://medium.com/@marina.ferreira.developer"
+       class="contact-link" target="_blank"
+       onclick="sendClick('medium')">
+
+    <img src="img/social/medium.png"
+         class="contact-image" alt="Medium">
+    </a>
+  </li>
+  <li class="contact-item github">
+    <a href="https://github.com/marina-ferreira/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('github')">
+
+    <img src="img/social/github.png"
+         class="contact-image large" alt="Code Sketch Github">
+    </a>
+  </li>
+  <li class="contact-item linkedin">
+    <a href="https://linkedin.com/in/marinaferreiradeveloper/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('linkedin')">
+
+    <img src="img/social/linkedin.png"
+         class="contact-image" alt="Linkedin">
+    </a>
+  </li>
+  <li class="contact-item  mail">
+    <a href="mailto:marina.ferreira.developer@gmail.com"
+       class="contact-link"
+       onclick="sendClick('mail')">
+
+    <img src="img/social/mail.png"
+         class="contact-image" alt="Send Mail">
+    </a>
+  </li>
+
+
+</ul>
+
+  </nav>
+</aside>
+
+
+  <ul class="content-list">
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/react/convert-it-all.jpg"
+               class="content-image" alt="Convert It All">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Convert It All</p>
+            <p class="content-description content-ellipsis">Unit Converter App built in HTML and CSS on </p>
+
+            <div class="content-date">Oct 23, 2021</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                
+
+                <a class="content-link"
+                   href="convert-it-all"
+                   onclick="sendClick('convert-it-all', 'project-list')"
+                   target="_blank">Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/js/memory-game.jpg"
+               class="content-image" alt="Memory Game (Tutorial Demo)">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Memory Game (Tutorial Demo)</p>
+            <p class="content-description content-ellipsis">HTML5, CSS3 and  JavaScript Memory Game</p>
+
+            <div class="content-date">Jun 27, 2020</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/js/memory-game/"
+                   onclick="sendClick('memory-game-(tutorial-demo)', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+                
+                  <li class="content-tag">
+                    <a href="/tags/tutorial"
+                      class="content-tag-link">tutorial</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/js/note-display.jpg"
+               class="content-image" alt="Note Display (Tutorial Demo)">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Note Display (Tutorial Demo)</p>
+            <p class="content-description content-ellipsis"> Note Display from WEBPILL</p>
+
+            <div class="content-date">Mar 7, 2021</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                
+
+                <a class="content-link"
+                   href="smashing-magazine-note-display-demo"
+                   onclick="sendClick('note-display-(tutorial-demo)', 'project-list')"
+                   target="_blank">Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+                  <li class="content-tag">
+                    <a href="/tags/tutorial"
+                      class="content-tag-link">tutorial</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/type-ahead.jpg"
+               class="content-image" alt="Type Ahead">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Type Ahead</p>
+            <p class="content-description content-ellipsis">Search with results as you type.</p>
+
+            <div class="content-date">Sept 26, 2021</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/type-ahead/"
+                   onclick="sendClick('type-ahead', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/angular/calendar.jpg"
+               class="content-image" alt="Calendar">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Calendar</p>
+            <p class="content-description content-ellipsis">calendar</p>
+
+            <div class="content-date">Jul 10, 2021</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                
+
+                <a class="content-link"
+                   href="angularjs-calendar"
+                   onclick="sendClick('calendar', 'project-list')"
+                   target="_blank">Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/css/nested-flexbox.jpg"
+               class="content-image" alt="Nested Flexbox">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Nested Flexbox</p>
+            <p class="content-description content-ellipsis">What the Flexbox - WesBos: nested flexbox.</p>
+
+            <div class="content-date">Jun 9, 2019</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/css/nested-flexbox/"
+                   onclick="sendClick('nested-flexbox', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css-only"
+                      class="content-tag-link">css-only</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/react/monsters-rolodex.jpg"
+               class="content-image" alt="Monsters Rolodex">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Monsters Rolodex</p>
+            <p class="content-description content-ellipsis"> monster filter app from WEBPILL using html and css</p>
+
+            <div class="content-date">Dec 1, 2019</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                
+
+                <a class="content-link"
+                   href="monsters-rolodex"
+                   onclick="sendClick('monsters-rolodex', 'project-list')"
+                   target="_blank">Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/js/brazil-choropleth.jpg"
+               class="content-image" alt="Brazil Population Choropleth">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Brazil Population Choropleth</p>
+            <p class="content-description content-ellipsis">Brazil&#39;s states and counties population D3 Choropleth in JS</p>
+
+            <div class="content-date">Nov 7, 2019</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                
+
+                <a class="content-link"
+                   href="brazil-choropleth"
+                   onclick="sendClick('brazil-population-choropleth', 'project-list')"
+                   target="_blank">Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+                 
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/whack-a-mole.jpg"
+               class="content-image" alt="Whack a Mole">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Whack a Mole</p>
+            <p class="content-description content-ellipsis">Whack a mole game.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/whack-a-mole/"
+                   onclick="sendClick('whack-a-mole', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/countdown-clock.jpg"
+               class="content-image" alt="Countdown Clock">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Countdown Clock</p>
+            <p class="content-description content-ellipsis">Countdown clock.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/countdown-clock/"
+                   onclick="sendClick('countdown-clock', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+               
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/video-speed.jpg"
+               class="content-image" alt="Video Speed">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Video Speed</p>
+            <p class="content-description content-ellipsis">Video speed control.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/video-speed/"
+                   onclick="sendClick('video-speed', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/click-and-drag.jpg"
+               class="content-image" alt="Click and Drag">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Click and Drag</p>
+            <p class="content-description content-ellipsis">Click and drag to scroll.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/click-and-drag/"
+                   onclick="sendClick('click-and-drag', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/stripe-follow-along.jpg"
+               class="content-image" alt="Stripe Follow Along">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Stripe Follow Along</p>
+            <p class="content-description content-ellipsis">Follow along menu dropdown.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/stripe-follow-along/"
+                   onclick="sendClick('stripe-follow-along', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/sticky-nav.jpg"
+               class="content-image" alt="Sticky Nav">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Sticky Nav</p>
+            <p class="content-description content-ellipsis">Sticky main navigation on scroll.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/sticky-nav/"
+                   onclick="sendClick('sticky-nav', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/speech-synthesis.jpg"
+               class="content-image" alt="Speech Synthesis">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Speech Synthesis</p>
+            <p class="content-description content-ellipsis">Speech Synthesis API - text into voice.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/speech_synthesis/"
+                   onclick="sendClick('speech-synthesis', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/follow-along-links.jpg"
+               class="content-image" alt="Follow Along Links">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Follow Along Links</p>
+            <p class="content-description content-ellipsis">Mouse seeker link highlight.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/follow-along-links/"
+                   onclick="sendClick('follow-along-links', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/geolocation.jpg"
+               class="content-image" alt="Geolocation">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Geolocation</p>
+            <p class="content-description content-ellipsis">Geolocation: position and speed.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/geolocation/"
+                   onclick="sendClick('geolocation', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/speech-recognition.jpg"
+               class="content-image" alt="Speech Recognition">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Speech Recognition</p>
+            <p class="content-description content-ellipsis">Speech Recognition API.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/speech-recognition/"
+                   onclick="sendClick('speech-recognition', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/webcam.jpg"
+               class="content-image" alt="Webcam">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Webcam</p>
+            <p class="content-description content-ellipsis">Apply filters and take screenshots with the webcam.</p>
+
+            <div class="content-date">Jun 29, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/webcam/"
+                   onclick="sendClick('webcam', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/video-length.jpg"
+               class="content-image" alt="Video Length">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Video Length</p>
+            <p class="content-description content-ellipsis">Calculate the video length of a channel.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/video-length/"
+                   onclick="sendClick('video-length', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/array-sort.jpg"
+               class="content-image" alt="Array Sort">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Array Sort</p>
+            <p class="content-description content-ellipsis">Sort bands names excluding articles.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/array-sort/"
+                   onclick="sendClick('array-sort', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/vanilla-js"
+                      class="content-tag-link">vanilla-js</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/moving-shadow.jpg"
+               class="content-image" alt="Moving Shadow">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Moving Shadow</p>
+            <p class="content-description content-ellipsis">Text shadow moves along with the mouse.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/moving-shadow/"
+                   onclick="sendClick('moving-shadow', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/local-storage.jpg"
+               class="content-image" alt="Local Storage">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Local Storage</p>
+            <p class="content-description content-ellipsis">Save your menu to the local storage.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/local-storage/"
+                   onclick="sendClick('local-storage', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/slide-in-scroll.jpg"
+               class="content-image" alt="Slide in Scroll">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Slide in Scroll</p>
+            <p class="content-description content-ellipsis">Slide in images on text scroll.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/slide-in-scroll/"
+                   onclick="sendClick('slide-in-scroll', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/key-sequence-detection.jpg"
+               class="content-image" alt="Key Sequence Detection">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Key Sequence Detection</p>
+            <p class="content-description content-ellipsis">Enter the secret word to see what happens!</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/key-sequence-detection/"
+                   onclick="sendClick('key-sequence-detection', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/html5-video-player.jpg"
+               class="content-image" alt="Html5 Video Player">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Html5 Video Player</p>
+            <p class="content-description content-ellipsis">HTML5 Video Player. Controls for volume, speed, advance and return.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/html5-video-player/"
+                   onclick="sendClick('html5-video-player', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/multiple-check.jpg"
+               class="content-image" alt="Multiple Check">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Multiple Check</p>
+            <p class="content-description content-ellipsis">Check multiple checkboxes holding shift.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/multiple-check/"
+                   onclick="sendClick('multiple-check', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/vanilla-js"
+                      class="content-tag-link">vanilla-js</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/html5-canvas.jpg"
+               class="content-image" alt="Html Canvas">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Html Canvas</p>
+            <p class="content-description content-ellipsis">Draw in the Canvas!</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/html5-canvas/"
+                   onclick="sendClick('html-canvas', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/vanilla-js"
+                      class="content-tag-link">vanilla-js</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/flex-image-gallery.jpg"
+               class="content-image" alt="Flex Image Gallery">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Flex Image Gallery</p>
+            <p class="content-description content-ellipsis">Flexbox vertical image gallery.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/flex-image-gallery/"
+                   onclick="sendClick('flex-image-gallery', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/css-variables.jpg"
+               class="content-image" alt="Css Variables">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Css Variables</p>
+            <p class="content-description content-ellipsis">Set an image spacing, blur and color through CSS variables</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/css-variables/"
+                   onclick="sendClick('css-variables', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/clock.jpg"
+               class="content-image" alt="Clock">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Clock</p>
+            <p class="content-description content-ellipsis">Analogic clock.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/clock/"
+                   onclick="sendClick('clock', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/javascript30/drum-kit.jpg"
+               class="content-image" alt="Drum Kit">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Drum Kit</p>
+            <p class="content-description content-ellipsis">Drums in the keyboard.</p>
+
+            <div class="content-date">Jun 27, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/javascript30/drum-kit/"
+                   onclick="sendClick('drum-kit', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/js"
+                      class="content-tag-link">js</a>
+                  </li>
+                
+                  
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/css/loading-heart.jpg"
+               class="content-image" alt="Loading Heart">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Loading Heart</p>
+            <p class="content-description content-ellipsis">Loading Heart CSS Animation</p>
+
+            <div class="content-date">Jun 13, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/css/loading-heart/"
+                   onclick="sendClick('loading-heart', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css-only"
+                      class="content-tag-link">css-only</a>
+                  </li>
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/css/mobile-layout.jpg"
+               class="content-image" alt="Mobile Layout">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Mobile Layout</p>
+            <p class="content-description content-ellipsis"> mobile layout</p>
+
+            <div class="content-date">Jun 8, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/css/mobile-layout/"
+                   onclick="sendClick('mobile-layout', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+            
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css-only"
+                      class="content-tag-link">css-only</a>
+                  </li>
+                
+                 
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+        <li class="content-card">
+          <img src="https://marina-ferreira.github.io/img/projects/css/pricing-grid.jpg"
+               class="content-image" alt="Pricing Grid">
+
+          <div class="content-info">
+            <p class="content-title content-ellipsis">Pricing Grid</p>
+            <p class="content-description content-ellipsis"> Pricing Grid</p>
+
+            <div class="content-date">Jun 8, 2018</div>
+          </div>
+
+          <div class="content-overlay">
+            
+
+            
+              
+                <a class="content-link"
+                   href="/projects/css/pricing-grid/"
+                   onclick="sendClick('pricing-grid', 'project-list')"
+                   >Go to Project!</a>
+              
+            
+
+
+            <ul class="content-tag-list">
+              
+                
+                  <li class="content-tag">
+                    <a href="/tags/html"
+                      class="content-tag-link">html</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css"
+                      class="content-tag-link">css</a>
+                  </li>
+                
+                  <li class="content-tag">
+                    <a href="/tags/css-only"
+                      class="content-tag-link">css-only</a>
+                  </li>
+                
+                  
+                
+              
+            </ul>
+          </div>
+        </li>
+      
+    
+      
+       
+              
+                
+                 
+      
+    
+
+  <footer class="footer">
+  &copy; Copyright 2022 by WEBPILL
+  <ul class="contact-icons">
+  <li class="contact-item">
+    <a href="https://twitter.com/codesketchlab"
+       class="contact-link" target="_blank"
+       onclick="sendClick('twitter')">
+
+    <img src="img/social/twitter.png"
+         class="contact-image" alt="Code Sketch Twitter">
+    </a>
+  </li>
+  <li class="contact-item">
+    <a href="https://www.facebook.com/codesketchlab/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('facebook')">
+
+    <img src="img/social/facebook.png"
+         class="contact-image" alt="Code Sketch Facebook">
+    </a>
+  </li>
+  <li class="contact-item youtube">
+    <a href="https://www.youtube.com/channel/UCHFmShpjG-8N52O0JD2ut3A"
+       class="contact-link" target="_blank"
+       onclick="sendClick('youtube')">
+
+    <img src="img/social/youtube.png"
+         class="contact-image large" alt="Code Sketch Channel Youtube">
+    </a>
+  </li>
+  <li class="contact-item">
+    <a href="https://medium.com/@marina.ferreira.developer"
+       class="contact-link" target="_blank"
+       onclick="sendClick('medium')">
+
+    <img src="img/social/medium.png"
+         class="contact-image" alt="Medium">
+    </a>
+  </li>
+  <li class="contact-item github">
+    <a href="https://github.com/marina-ferreira/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('github')">
+
+    <img src="img/social/github.png"
+         class="contact-image large" alt="Code Sketch Github">
+    </a>
+  </li>
+  <li class="contact-item linkedin">
+    <a href="https://linkedin.com/in/marinaferreiradeveloper/"
+       class="contact-link" target="_blank"
+       onclick="sendClick('linkedin')">
+
+    <img src="img/social/linkedin.png"
+         class="contact-image" alt="Linkedin">
+    </a>
+  </li>
+  <li class="contact-item  mail">
+    <a href="mailto:webpill.developer@gmail.com"
+       class="contact-link"
+       onclick="sendClick('mail')">
+
+    <img src="img/social/mail.png"
+         class="contact-image" alt="Send Mail">
+    </a>
+  </li>
+
+
+</ul>
+
+</footer>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>
+  <script src="/scripts.min.js"></script>
+</body>
+</html>
